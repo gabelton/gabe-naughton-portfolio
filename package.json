@@ -2,6 +2,8 @@
   "dependencies": {
     "bulma": "^0.7.5",
     "bulma-extensions": "^6.2.7",
+    "sass": "^1.23.0-module.beta.1",
+    "sass-loader": "^8.0.0",
     "spectre.css": "^0.5.8"
   }
 }
