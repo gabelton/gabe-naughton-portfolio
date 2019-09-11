@@ -1,7 +1,9 @@
-@import "../node_modules/bulma/css/bulma.css";
-@import "../node_modules/bulma-extensions/bulma-divider/dist/css/bulma-divider.min.css";
+@charset "utf-8";
+@import "~bulma/bulma";
+
 * {
   box-sizing: border-box;
+
 }
 
 body {
@@ -10,12 +12,14 @@ body {
   color: #3b4351;
 }
 
-h3 {
+h3{
   font-weight: 300;
 }
 
+
 .hero-body {
   border-bottom: solid;
+
   width: 90%;
   margin: 0 auto;
 }
@@ -43,7 +47,7 @@ i {
   font-size: 3em;
 }
 
-.current {
+.current{
   color: red;
 }
 
@@ -51,15 +55,12 @@ i {
   padding: 0 5px;
   font-size: 25px;
 }
-
 a {
   color: #3b4351;
 }
-
 a:visited {
   color: #3b4351;
 }
-
 a:hover {
   color: red;
 }
@@ -72,7 +73,7 @@ a:hover {
   display: inline;
 }
 
-.stop {
+.stop{
   display: flex;
   align-items: baseline;
   justify-content: flex-end;
@@ -86,10 +87,13 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.skills-icon-wrapper {
+.skills-icon-wrapper{
   padding: 0.5em;
   width: 20%;
 }
+
+
+
 
 .full-stop {
   height: 50px;
@@ -105,12 +109,11 @@ a:hover {
   padding: 0;
 }
 
-#on-load {
+#on-load{
   align-items: flex-end;
+
 }
 
 #skills {
   text-align: center;
 }
-
-/*# sourceMappingURL=style.css.map */
