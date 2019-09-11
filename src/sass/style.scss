@@ -4,7 +4,8 @@
 
 * {
   box-sizing: border-box;
-
+  min-height: 0;
+  min-width: 0;
 }
 
 body {
@@ -17,12 +18,24 @@ h3{
   font-weight: 300;
 }
 
+#slick-images{
+  margin: 0 auto;
+}
+
+.slick-prev, .slick-next {
+    background-color: red;
+}
+
 
 .hero-body {
   border-bottom: solid;
 
   width: 90%;
   margin: 0 auto;
+}
+
+.container {
+  text-align: center;
 }
 
 footer {

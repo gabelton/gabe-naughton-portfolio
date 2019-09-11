@@ -4,13 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
-
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
     <title>Gabe's portfolio</title>
-    <!-- <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css"> -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="dist/css/style.css">
   </head>
@@ -63,12 +58,13 @@
     </section>
     <section class="hero is-fullheight">
       <div class="hero-body">
-        <div id="slick-images">
-          <div><img src='https://www.thesun.ie/wp-content/uploads/sites/3/2019/04/NINTCHDBPICT000378478301.jpg'></div>
-          <div><img src='https://www.thesun.ie/wp-content/uploads/sites/3/2019/04/NINTCHDBPICT000378478301.jpg'></div>
-          <div><img src='https://www.thesun.ie/wp-content/uploads/sites/3/2019/04/NINTCHDBPICT000378478301.jpg'></div>
-          <div><img src='https://www.thesun.ie/wp-content/uploads/sites/3/2019/04/NINTCHDBPICT000378478301.jpg'></div>
-          <div><img src='https://www.thesun.ie/wp-content/uploads/sites/3/2019/04/NINTCHDBPICT000378478301.jpg'></div>
+        <div class="container has-text-centered is">
+          <div id="slick-images">
+            <div class="slick-slide"><img src='images/canvas.png'></div>
+            <div class="slick-slide"><img src='images/project-black.jpg'></div>
+            <div class="slick-slide"><img src='images/versus.png'></div>
+            <div class="slick-slide"><img src='images/loadScreen.png'></div>
+          </div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
@@ -78,24 +74,28 @@
 
         <script type="text/javascript">
           $("#slick-images").slick({
+            infinite: false,
+            arrows: true,
             dots: true,
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
+            variableWidth: true,
+            centerMode: true,
             responsive: [
                     {
                       breakpoint: 1024,
                       settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
                       }
                     },
                     {
                       breakpoint: 600,
                       settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
+                        slidesToShow: 1,
+                        slidesToScroll: 1
                       }
                     },
                     {
