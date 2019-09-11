@@ -8,6 +8,7 @@
     "node-sass": "^4.12.0",
     "sass": "^1.23.0-module.beta.1",
     "sass-loader": "^8.0.0",
+    "slick-carousel": "^1.8.1",
     "spectre.css": "^0.5.8",
     "style-loader": "^1.0.0",
     "webpack": "^4.39.3",
