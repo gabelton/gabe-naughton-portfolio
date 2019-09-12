@@ -35,7 +35,7 @@
 
           <h3>full stack software developer</h3>
           <a href="https://github.com/gabelton">
-            <img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="github">
+            <img class="github" src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="github">
           </a>
         </div>
       </div>
@@ -58,12 +58,13 @@
     </section>
     <section class="hero is-fullheight">
       <div class="hero-body">
-        <div class="container has-text-centered is">
+        <div class="container has-text-centered">
+          <h3>projects</h3>
           <div id="slick-images">
-            <div class="slick-slide"><img src='images/canvas.png'></div>
-            <div class="slick-slide"><img src='images/project-black.jpg'></div>
-            <div class="slick-slide"><img src='images/versus.png'></div>
-            <div class="slick-slide"><img src='images/loadScreen.png'></div>
+            <div ><img class="projects" src='images/canvas.png'></div>
+            <div><img  class="projects"src='images/project-black.jpg'></div>
+            <div ><img class="projects" src='images/versus.png'></div>
+            <div><img  class="projects"src='images/loadScreen.png'></div>
           </div>
         </div>
 
@@ -74,35 +75,36 @@
 
         <script type="text/javascript">
           $("#slick-images").slick({
-            infinite: false,
-            arrows: true,
-            dots: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            variableWidth: true,
-            centerMode: true,
+            // infinite: false,
+            // arrows: true,
+            // dots: true,
+            // slidesToShow: 1,
+            // slidesToScroll: 1,
+            // slidesPerRow: 1,
+            // autoplay: true,
+            // autoplaySpeed: 2000,
+            // variableWidth: true,
+
             responsive: [
                     {
                       breakpoint: 1024,
                       settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
                       }
                     },
                     {
                       breakpoint: 600,
                       settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
                       }
                     },
                     {
                       breakpoint: 480,
                       settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
                       }
                     }
                   ]
@@ -225,7 +227,7 @@
       </div>
     </section>
   <footer class="footer" id='contact'>
-    <div class="container grid-xl">
+    <div class="container ">
       <div class="columns">
         <div class="column col-6">
           <h3>contact</h3>

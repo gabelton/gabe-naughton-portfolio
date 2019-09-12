@@ -1,9 +1,4 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 2 | @import "~bulma/bulma";
- *   |         ^^^^^^^^^^^^^^
- *   '
- *   src/sass/style.scss 2:9  root stylesheet */
+
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",

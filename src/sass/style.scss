@@ -7,6 +7,9 @@
   min-height: 0;
   min-width: 0;
 }
+title{
+  display: none;
+}
 
 body {
   background-color: #f8f8f8;
@@ -14,18 +17,18 @@ body {
   color: #3b4351;
 }
 
-h3{
-  font-weight: 300;
-}
-
 #slick-images{
-  margin: 0 auto;
+  margin-top: 1em;
 }
 
 .slick-prev, .slick-next {
     background-color: red;
 }
 
+.projects{
+  width: 80%;
+  margin: 0 auto;
+}
 
 .hero-body {
   border-bottom: solid;
@@ -34,9 +37,7 @@ h3{
   margin: 0 auto;
 }
 
-.container {
-  text-align: center;
-}
+
 
 footer {
   width: 90vw;
@@ -51,14 +52,15 @@ h1 {
 h3 {
   display: inline;
   font-size: 40px;
-}
-
-img {
-  height: 25px;
+  font-weight: 300;
 }
 
 i {
   font-size: 3em;
+}
+
+.github {
+  height: 1em;
 }
 
 .current{
