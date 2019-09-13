@@ -7,9 +7,6 @@
   min-height: 0;
   min-width: 0;
 }
-title{
-  display: none;
-}
 
 body {
   background-color: #f8f8f8;
@@ -47,6 +44,7 @@ body {
 footer {
   width: 90vw;
   margin: 0 auto;
+  align-items: center;
 }
 
 h1 {
@@ -64,11 +62,15 @@ i {
   font-size: 3em;
 }
 
+span {
+  font-weight: 700;
+}
+
 .github {
   height: 1em;
 }
 
-.current{
+.current, .current:visited{
   color: red;
 }
 
@@ -86,8 +88,14 @@ a:hover {
   color: red;
 }
 
-.navbar-section {
-  padding: 15px;
+.navbar {
+  width: 90%;
+  align-self: center;
+}
+
+.navbar-item {
+  border-bottom: solid;
+  border-color: red;
 }
 
 .title {
