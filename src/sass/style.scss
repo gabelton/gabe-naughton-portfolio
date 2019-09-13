@@ -85,7 +85,8 @@ a:visited {
   color: #3b4351;
 }
 a:hover {
-  color: red;
+  color: red !important;
+
 }
 
 .navbar {

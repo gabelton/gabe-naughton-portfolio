@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
     <title>Gabe's portfolio</title>
@@ -61,10 +62,10 @@
         <div class="container has-text-centered">
           <h3>projects</h3>
           <div id="slick-images">
-            <div ><a href="https://canvas-london.herokuapp.com/#/"><img class="projects" src='images/canvas.png'></a><p>A fullstack arts event app with Flask-Python backend and React frontend</p></div>
-            <div><a href="https://sei-project-3.herokuapp.com/#/"><img  class="projects"src='images/project-black.jpg'></a></div>
-            <div><img class="projects" src='images/versus.png'></div>
-            <div><img  class="projects"src='images/loadScreen.png'></div>
+            <div ><a href="https://canvas-london.herokuapp.com/#/"><img class="projects" src='images/canvas.png' alt="canvas"></a><br><p>A fullstack arts event app with a Flask-Python backend and React frontend</p></div>
+            <div><a href="https://sei-project-3.herokuapp.com/#/"><img  class="projects"src='images/project-black.jpg' alt="project-black"></a><br><p>My first fullstack app, a vinyl-sharing platform built with NodeJs and Express and a React frontend</p></div>
+            <div><img class="projects" src='images/versus.png' alt="versus"><br><p>The product of a two day hackathon, my first React app allows users to compare stats for Premier League football teams</p></div>
+            <div><a href="https://gabelton.github.io/SEI-Project-1/"><img  class="projects"src='images/loadScreen.png' alt="battleships"></a><br><p>Completed over seven days, this grid-based game allowed me to consolidate knowledge of Vanilla JavaScript and problem-solving fundamentals</p></div>
           </div>
         </div>
 
@@ -72,20 +73,8 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-
         <script type="text/javascript">
           $("#slick-images").slick({
-            // infinite: false,
-            // arrows: true,
-            // dots: true,
-            // slidesToShow: 1,
-            // slidesToScroll: 1,
-            // slidesPerRow: 1,
-            // autoplay: true,
-            // autoplaySpeed: 2000,
-            // variableWidth: true,
-
-
             responsive: [
                     {
                       breakpoint: 1024,
@@ -228,25 +217,27 @@
       </div>
     </section>
   <footer class="footer" id='contact'>
-
-      <div class="columns">
-        <div class="column col-6">
-          <h3>contact</h3>
-          <img src="" alt=""><a href="mailto:gabriel.naughton135@gmail.com"><h6> gabriel.naughton135@gmail.com</h6></a>
-          <img src="" alt=""><a href="https://www.linkedin.com/in/gabriel-naughton/"><h6>linkedin.com/in/gabriel-naughton</h6></a>
-          <img src="" alt=""> <a href="https://github.com/gabelton"><h6 class="last">github.com/gabelton</h6></a>
-        </div>
-        <div class="column">
-          <h3>education</h3>
-          <h6>Software Engineering Immersive, <span>General Assembly</span> (March-June 2019)</h6>
-          <br>
-          <h6>MA (Oxon), Classics [2:1], <span>Oxford University</span> (2013-17)</h6>
-        </div>
-        <div class="column col-6 stop is-hidden-mobile">
-          <div class="full-stop">
-          </div>
+    <div class="columns">
+      <div class="column col-6">
+        <h3>contact</h3>
+        <ahref="mailto:gabriel.naughton135@gmail.com"><h6><i class="fa fa-envelope"></i> gabriel.naughton135@gmail.com</h6></a>
+        <br>
+        <a href="https://www.linkedin.com/in/gabrielnaughton/"><h6><i class="fa fa-linkedin"></i> linkedin.com/in/gabriel-naughton</h6></a>
+        <br>
+         <a href="https://github.com/gabelton"><h6><i class="fa fa-github"></i> github.com/gabelton</h6></a>
+      </div>
+      <div class="is-divider-vertical" ></div>
+      <div class="column">
+        <h3>education</h3>
+        <h6>Software Engineering Immersive, <span>General Assembly</span>(March-June 2019)</h6>
+        <br>
+        <h6>MA (Oxon), Classics [2:1], <span>Oxford University</span> (201317)</h6>
+      </div>
+      <div class="column col-6 stop is-hidden-mobile">
+        <div class="full-stop">
         </div>
       </div>
+    </div>
 
   </footer>
 
