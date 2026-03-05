@@ -1,6 +1,5 @@
 @charset "utf-8";
-@import "~bulma/bulma";
-@import "~bulma-extensions";
+@use "bulma/bulma";
 
 * {
   box-sizing: border-box;
