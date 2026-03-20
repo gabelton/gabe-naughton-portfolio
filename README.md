@@ -1,11 +1,1 @@
-Concept:
-- A minimalist portfolio for a fullstack developer interested less by flashy gimmicks and more by opportunities to solve problems, particularly with Python and nodejs.
-
-Technologies used:
--  HTML5
-- SCSS
-- JavaScript
-- Bulma and Bulma extensions
-- Slick Carousel
-- webpack
-- git
+An old portfolio, made during a software engineering bootcamp at General Assembly several years ago, now in dire need of an update.
