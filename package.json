@@ -3,7 +3,7 @@
     "bulma": "^1.0.4",
     "css-loader": "^7.1.4",
     "mini-css-extract-plugin": "^2.10.1",
-    "sass": "^1.83.0",
+    "sass": "^1.98.0",
     "sass-loader": "^16.0.7",
     "slick-carousel": "^1.8.1",
     "spectre.css": "^0.5.9",
