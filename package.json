@@ -8,7 +8,7 @@
     "slick-carousel": "^1.8.1",
     "spectre.css": "^0.5.9",
     "style-loader": "^4.0.0",
-    "webpack": "^5.105.4",
+    "webpack": "^5.106.2",
     "webpack-cli": "^7.0.2"
   },
   "scripts": {
